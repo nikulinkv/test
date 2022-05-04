@@ -171,10 +171,6 @@ section {
       color: $lighten-color;
    }
 
-   &:hover#phone {
-      color: $lighten-color;
-   }
-
    img {
       height: 18.75px;
       margin-right: 8px;
@@ -306,10 +302,6 @@ section {
       margin: 0 auto;
       text-align: center;
       margin-bottom: 85px;
-   }
-
-   &__header {
-      margin-bottom: 30px;
 
       div {
          display: inline-block;
