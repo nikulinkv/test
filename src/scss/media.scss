@@ -1,0 +1,276 @@
+@media screen and(max-width: 1280px) {
+
+   .container {
+      max-width: 1200px;
+   }
+
+   .container-small {
+      max-width: 995px;
+   }
+
+   .menu {
+      &__link {
+         font-size: 18px;
+      }
+   }
+
+   .phone__link {
+      font-size: 18px;
+   }
+
+   .button {
+      font-size: 18px;
+
+      img {
+         height: 20px;
+      }
+   }
+
+   .ellipse-1 {
+      left: -70px;
+   }
+
+   .ellipse-2 {
+      display: none;
+   }
+
+   .training {
+      align-items: flex-start;
+
+      &__price {
+         margin: 40px 0;
+      }
+   }
+
+   .h1 {
+      font-size: 46px;
+      line-height: 65px;
+   }
+
+   .text {
+      font-size: 20px;
+      line-height: 160%;
+   }
+
+   .h2 {
+      font-size: 40px;
+   }
+
+   section[class=head] {
+      padding: 15px 0 70px;
+   }
+
+   .hystory {
+
+      &__image-1,
+      &__image-2 {
+         max-width: 350px;
+      }
+   }
+
+   .card {
+      .h5 {
+         font-size: 20px;
+      }
+
+      &__text {
+         .text {
+            font-size: 16px;
+         }
+      }
+   }
+
+   section[class=sales] {
+      padding: 15px 0 120px;
+   }
+
+   .menu {
+      &__item {
+         &:not(:first-child) {
+            margin-left: 40px;
+         }
+      }
+   }
+}
+
+@media screen and(max-width: 1200px) {
+
+   .nav__menu,
+   .phone__link {
+      display: none;
+   }
+
+   .menu__button {
+      display: block;
+      margin-left: 80px;
+   }
+
+   .training {
+      display: block;
+
+      .superman {
+         background: none;
+         float: right;
+         clear: both;
+         position: relative;
+         margin-right: -250px;
+      }
+   }
+
+   section[class=sales] {
+      padding: 0 40px;
+   }
+
+   .card {
+      &__body {
+         flex: 0 1 50%;
+         margin-bottom: 60px;
+      }
+   }
+
+   .ellipse-1 {
+      display: none;
+   }
+}
+
+
+@media screen and(max-width: 767px) {
+
+   .text {
+      font-size: 18px;
+   }
+
+   .h1 {
+      font-size: 26px;
+      line-height: 150%;
+   }
+
+   .h2 {
+      font-size: 24px;
+      line-height: 150%;
+   }
+
+   .header {
+      margin: 18px 0 40px;
+
+      &__logo {
+         img {
+            height: 45px;
+            margin-right: 20px;
+         }
+      }
+   }
+
+   .menu {
+      &__button {
+         margin-left: 20px;
+      }
+   }
+
+   .button {
+      padding: 4px 20px;
+      font-size: 14px;
+
+      img {
+         height: 14px;
+         margin-right: 8px;
+      }
+   }
+
+   .head {
+      padding: 44px 85px;
+   }
+
+   .training {
+      .superman {
+         height: 245px;
+         margin-top: -50px;
+         margin-right: -125px;
+      }
+
+      &__price {
+         span {
+            font-size: 18px;
+
+            strong {
+               font-size: 35px;
+               line-height: 29px;
+            }
+         }
+      }
+
+      .text:not(:last-child) {
+         margin-bottom: 10px;
+      }
+   }
+
+   .hystory {
+      .h2 {
+         margin-bottom: 60px;
+
+         span {
+            display: none;
+         }
+      }
+
+      .h2::after {
+         content: 'Как работает модуль Аналитика по API для Wildberries?';
+      }
+
+      &__item {
+         flex-wrap: wrap;
+         justify-content: center;
+
+         .text:not(:first-child) {
+            margin-top: 10px;
+         }
+
+         .text:last-child {
+            margin-top: 10px;
+         }
+      }
+
+      &__image-1,
+      &__image-2 {
+         width: 270px;
+         margin: 40px 0 30px;
+         order: 1;
+      }
+
+      &__wrap-text {
+         order: 2;
+      }
+
+
+
+      &__text-right {
+         margin: 0;
+         order: 1;
+      }
+   }
+
+   .sales {
+      .h2 {
+         margin-bottom: 25px;
+      }
+   }
+
+   .card {
+      &__body {
+         flex: 0 1 100%;
+         text-align: center;
+      }
+
+      &__icon {
+         margin: 0 auto;
+      }
+   }
+
+   section[class=hystory] {
+      padding: 15px 0 100px;
+   }
+
+   section[class=sales] {
+      padding: 0 15px;
+   }
+}
