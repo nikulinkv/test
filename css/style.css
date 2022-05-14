@@ -310,11 +310,11 @@ section {
   margin-bottom: 85px;
 }
 
-.sales__head div {
+.sales__head span {
   display: inline-block;
 }
 
-.sales__head div:after {
+.sales__head span:after {
   content: "";
   display: block;
   height: 7px;
