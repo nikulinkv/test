@@ -1,7 +1,7 @@
 @import "fonts";
 
 $font-family: Lato,
-sans-serif;
+   sans-serif;
 $font-regular: 400;
 $font-semi-bold: 600;
 $font-bold: 700;
@@ -303,7 +303,7 @@ section {
       text-align: center;
       margin-bottom: 85px;
 
-      div {
+      span {
          display: inline-block;
 
          &:after {
