@@ -1,5 +1,3 @@
-@charset "UTF-8";
-
 @font-face {
   font-family: Lato;
   font-display: swap;
@@ -7,7 +5,6 @@
   font-weight: 700;
   font-style: normal;
 }
-
 @font-face {
   font-family: Lato;
   font-display: swap;
@@ -15,7 +12,6 @@
   font-weight: 500;
   font-style: normal;
 }
-
 @font-face {
   font-family: Lato;
   font-display: swap;
@@ -23,7 +19,6 @@
   font-weight: 400;
   font-style: normal;
 }
-
 @font-face {
   font-family: Lato;
   font-display: swap;
@@ -31,7 +26,6 @@
   font-weight: 600;
   font-style: normal;
 }
-
 body,
 html {
   margin: 0;
@@ -61,7 +55,6 @@ section {
   font-weight: 700;
   color: #222;
 }
-
 .h1 span {
   color: #CF51CE;
 }
@@ -117,7 +110,17 @@ section {
   align-items: center;
   justify-content: space-between;
 }
-
+.header__logo {
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 20px;
+  background: -o-linear-gradient(264.91deg, #7C4EAB 0.73%, #DD51D4 95.85%);
+  background: -webkit-gradient(linear, 264.91deg, from(#7C4EAB 0.73%), to(#DD51D4 95.85%));
+  background: linear-gradient(264.91deg, #7C4EAB 0.73%, #DD51D4 95.85%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .header__logo img {
   height: 75px;
   margin-right: 30px;
@@ -136,15 +139,12 @@ section {
   padding: 0;
   list-style: none;
 }
-
 .menu__item {
   display: inline-block;
 }
-
 .menu__item:not(:first-child) {
   margin-left: 50px;
 }
-
 .menu__link {
   font-family: Lato, sans-serif;
   text-decoration: none;
@@ -153,21 +153,17 @@ section {
   line-height: 35px;
   transition: all 0.3s;
 }
-
 .menu__link:hover {
   color: #b267a6;
 }
-
 .menu__link img {
   display: inline;
   height: 12px;
   margin-left: 12px;
 }
-
 .menu__button {
   display: none;
 }
-
 .menu__button img {
   width: 42px;
   height: 28px;
@@ -181,11 +177,9 @@ section {
   margin-right: 91px;
   transition: all 0.3s;
 }
-
 .phone__link:hover {
   color: #b267a6;
 }
-
 .phone__link img {
   height: 18.75px;
   margin-right: 8px;
@@ -209,11 +203,9 @@ section {
   letter-spacing: 0.02em;
   color: #fff;
 }
-
 .button:hover {
   cursor: pointer;
 }
-
 .button img {
   height: 23px;
   margin-right: 14px;
@@ -224,16 +216,13 @@ section {
   padding: 0;
   list-style: none;
 }
-
 .breadcrumbs__item {
   display: inline-block;
 }
-
 .breadcrumbs__item:not(:last-child):after {
   content: "-";
   padding: 0 8px;
 }
-
 .breadcrumbs__link {
   text-decoration: none;
   color: rgba(51, 26, 47, 0.5);
@@ -244,37 +233,30 @@ section {
   align-items: flex-start;
   justify-content: space-between;
 }
-
 .training .text:not(:last-child) {
   margin-bottom: 15px;
 }
-
 .training__header {
   max-width: 880px;
 }
-
 .training__price {
   display: flex;
   align-items: center;
   margin: 22px 0 16px;
 }
-
 .training__price span {
   font-size: 20px;
   line-height: 29px;
   font-weight: 600;
 }
-
 .training__price span strong {
   font-size: 35px;
   color: #CF51CE;
 }
-
 .training__price img {
   height: 48px;
   margin-right: 25px;
 }
-
 .training__wrap-superman {
   order: 2;
 }
@@ -282,23 +264,19 @@ section {
 .hystory__header {
   margin-bottom: 100px;
 }
-
 .hystory__item {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-
 .hystory__image-2 {
   max-width: 455px;
   order: 2;
 }
-
 .hystory__text-right {
   margin-left: 82px;
   max-width: 750px;
 }
-
 .hystory__text-left {
   max-width: 750px;
 }
@@ -309,11 +287,9 @@ section {
   text-align: center;
   margin-bottom: 85px;
 }
-
 .sales__head span {
   display: inline-block;
 }
-
 .sales__head span:after {
   content: "";
   display: block;
@@ -321,7 +297,6 @@ section {
   background: linear-gradient(264.91deg, #7C4EAB 0.73%, #DD51D4 95.85%);
   border-radius: 5px;
 }
-
 .sales__head strong {
   color: #CF51CE;
 }
@@ -331,19 +306,16 @@ section {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 .card__item {
   max-width: 290px;
   margin: 0 auto;
 }
-
 .card__item .h5 {
   margin: 30px 0 15px;
   color: #331A2F;
   font-size: 24px;
   line-height: 150%;
 }
-
 .card__icon {
   background-color: #CF51CE;
   height: 70px;
@@ -354,7 +326,6 @@ section {
   box-shadow: 0px 4px 25px rgba(234, 93, 187, 0.25);
   border-radius: 15px;
 }
-
 .card__text .text {
   font-size: 18px;
   line-height: 160%;
@@ -380,7 +351,6 @@ section {
   .button {
     font-size: 18px;
   }
-
   .button img {
     height: 20px;
   }
@@ -396,7 +366,6 @@ section {
   .training {
     align-items: flex-start;
   }
-
   .training__price {
     margin: 40px 0;
   }
@@ -419,15 +388,13 @@ section {
     padding: 15px 0 70px;
   }
 
-  .hystory__image-1,
-  .hystory__image-2 {
+  .hystory__image-1, .hystory__image-2 {
     max-width: 350px;
   }
 
   .card .h5 {
     font-size: 20px;
   }
-
   .card__text .text {
     font-size: 16px;
   }
@@ -440,10 +407,9 @@ section {
     margin-left: 40px;
   }
 }
-
 @media screen and (max-width: 1200px) {
   .nav__menu,
-  .phone__link {
+.phone__link {
     display: none;
   }
 
@@ -455,7 +421,6 @@ section {
   .training {
     display: block;
   }
-
   .training .superman {
     background: none;
     float: right;
@@ -477,7 +442,6 @@ section {
     display: none;
   }
 }
-
 @media screen and (max-width: 767px) {
   .text {
     font-size: 18px;
@@ -496,7 +460,6 @@ section {
   .header {
     margin: 18px 0 40px;
   }
-
   .header__logo img {
     height: 45px;
     margin-right: 20px;
@@ -510,7 +473,6 @@ section {
     padding: 4px 20px;
     font-size: 14px;
   }
-
   .button img {
     height: 14px;
     margin-right: 8px;
@@ -525,16 +487,13 @@ section {
     margin-top: -50px;
     margin-right: -125px;
   }
-
   .training__price span {
     font-size: 18px;
   }
-
   .training__price span strong {
     font-size: 35px;
     line-height: 29px;
   }
-
   .training .text:not(:last-child) {
     margin-bottom: 10px;
   }
@@ -542,39 +501,30 @@ section {
   .hystory .h2 {
     margin-bottom: 60px;
   }
-
   .hystory .h2 span {
     display: none;
   }
-
   .hystory .h2::after {
-    content: "Как работает модуль Аналитика по API для Wildberries?";
+    content: "beatae neque nisi earum maxime nemo commodi vero eum repellendus";
   }
-
   .hystory__item {
     flex-wrap: wrap;
     justify-content: center;
   }
-
   .hystory__item .text:not(:first-child) {
     margin-top: 10px;
   }
-
   .hystory__item .text:last-child {
     margin-top: 10px;
   }
-
-  .hystory__image-1,
-  .hystory__image-2 {
+  .hystory__image-1, .hystory__image-2 {
     width: 270px;
     margin: 40px 0 30px;
     order: 1;
   }
-
   .hystory__wrap-text {
     order: 2;
   }
-
   .hystory__text-right {
     margin: 0;
     order: 1;
@@ -588,7 +538,6 @@ section {
     flex: 0 1 100%;
     text-align: center;
   }
-
   .card__icon {
     margin: 0 auto;
   }
