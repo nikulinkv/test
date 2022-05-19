@@ -4,7 +4,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="css/style.min.css">
+   <link rel="stylesheet" href="css/style.min.css?_v=20220519155946">
    <title>Главная</title> 
 </head>
 
@@ -16,8 +16,9 @@
          <nav class="nav__menu">
             <ul class="menu__list">
                <li class="menu__item">
-                  <a href="#" class="menu__link">Аналитика <img src="img/icons/svg-sprite.svg#arrow"
-                        class="svg-arrow-dims" alt="arrow" /></a>
+                  <a href="#" class="menu__link">Аналитика
+                     <i class="bi bi-caret-down-fill"></i>
+                  </a>
                </li>
                <li class="menu__item">
                   <a href="#" class="menu__link">Обучение</a>
@@ -25,12 +26,9 @@
             </ul>
          </nav>
          <div class="wrap">
-            <a class="phone__link" href="tel:+4994503141"><img src="img/icons/svg-sprite.svg#phone"
-                  class="svg-phone-dims" alt="phone" />8 (999) 888-77-66</a>
-            <button class="button"><img src="img/icons/svg-sprite.svg#Icon-button" class="svg-Icon-button-dims"
-                  alt="Icon-button" />Войти</button>
-            <span class="menu__button"><img src="img/icons/svg-sprite.svg#burger_menu" class="svg-burger_menu-dims"
-                  alt="burger_menu" /></span>
+            <a class="phone__link" href="tel:+4994503141"><i class="bi bi-telephone-fill"></i>8 (999) 888-77-66</a>
+            <button class="button"><i class="bi bi-arrow-right-circle"></i>Войти</button>
+            <span class="menu__button"><i class="bi bi-list"></i></span>
          </div>
       </div>
       <div class="breadcrumbs">
@@ -57,15 +55,15 @@
          <div class="container">
             <div class="training">
                <div class="training__wrap-superman">
-                  <img class="superman" src="img/face.png" alt="superman">
+                  <picture><source srcset="img/face.webp" type="image/webp"><img class="superman" src="img/face.png" alt="superman"></picture>
                </div>
                <div class="training__header">
                   <h1 class="h1">
                      <span>Lorem, ipsum. </span>Lorem ipsum dolor sit. Lorem ipsum dolor sit.
                   </h1>
                   <div class="training__price">
-                     <img src="img/icons/svg-sprite.svg#spent" class="svg-spent-dims" alt="spent" />
-                     <span>от <strong>Lorem</strong> &#8381;</span>
+                     <i class="bi bi-wallet"></i>
+                     <span>от <strong>10 000</strong> &#8381;</span>
                   </div>
                   <p class="training__text text">
                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque, libero.
@@ -83,8 +81,8 @@
                </div>
             </div>
          </div>
-         <img class="ellipse-1" src="img/ellipse_1.png" alt="Эллипс">
-         <img class="ellipse-2" src="img/ellipse_2.png" alt="Эллипс">
+         <picture><source srcset="img/ellipse_1.webp" type="image/webp"><img class="ellipse-1" src="img/ellipse_1.png" alt="Эллипс"></picture>
+         <picture><source srcset="img/ellipse_2.webp" type="image/webp"><img class="ellipse-2" src="img/ellipse_2.png" alt="Эллипс"></picture>
       </section>
 
       <section class="hystory">
@@ -93,7 +91,7 @@
                <span>Lorem ipsum dolor sit.</span>
             </h2>
             <div class="hystory__item">
-               <img class="hystory__image-1" src="img/face.png" alt="Иллюстрация">
+               <picture><source srcset="img/face.webp" type="image/webp"><img class="hystory__image-1" src="img/face.png" alt="Иллюстрация"></picture>
                <p class="hystory__text-right text">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur, debitis! Id quia soluta,
                   molestias beatae doloremque quasi earum vel? Deleniti, magnam facilis minima in fugiat voluptate
@@ -111,7 +109,7 @@
                      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis, dolore.
                   </p>
                </div>
-               <img class="hystory__image-2" src="img/face.png" alt="Иллюстрация">
+               <picture><source srcset="img/face.webp" type="image/webp"><img class="hystory__image-2" src="img/face.png" alt="Иллюстрация"></picture>
             </div>
          </div>
       </section>
@@ -131,7 +129,7 @@
                <div class="card__body">
                   <div class="card__item">
                      <div class="card__icon">
-                        <img src="img/icons/target.svg" alt="">
+                        <i class="bi bi-bullseye"></i>
                      </div>
                      <div class="card__title">
                         <h5 class="h5">
@@ -150,7 +148,7 @@
                <div class="card__body">
                   <div class="card__item">
                      <div class="card__icon">
-                        <img src="img/icons/site.svg" alt="">
+                        <i class="bi bi-diagram-3"></i>
                      </div>
                      <div class="card__title">
                         <h5 class="h5">
@@ -168,7 +166,7 @@
                <div class="card__body">
                   <div class="card__item">
                      <div class="card__icon">
-                        <img src="img/icons/friends.svg" alt="">
+                        <i class="bi bi-stack-overflow"></i>
                      </div>
                      <div class="card__title">
                         <h5 class="h5">
@@ -187,7 +185,7 @@
                <div class="card__body">
                   <div class="card__item">
                      <div class="card__icon">
-                        <img src="img/icons/icons.svg" alt="">
+                        <i class="bi bi-person-circle"></i>
                      </div>
                      <div class="card__title">
                         <h5 class="h5">
@@ -209,7 +207,7 @@
 
    </main>
    <footer></footer>
-   <script src="js/app.min.js"></script>
+   <script src="js/app.min.js?_v=20220519155946"></script>
 </body>
 
 </html>
